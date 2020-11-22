@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Bomberman_Project" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin/Release/Bomberman" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="src" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="assets/bomb.png" />
+		<Unit filename="assets/box.png" />
+		<Unit filename="assets/grass.png" />
+		<Unit filename="assets/player2_stand.png" />
+		<Unit filename="assets/player3_stand.png" />
+		<Unit filename="assets/player4_stand.png" />
+		<Unit filename="assets/playerA_back.png" />
+		<Unit filename="assets/playerA_front.png" />
+		<Unit filename="assets/playerA_left.png" />
+		<Unit filename="assets/playerA_right.png" />
+		<Unit filename="assets/playerB_back.png" />
+		<Unit filename="assets/playerB_front.png" />
+		<Unit filename="assets/playerB_left.png" />
+		<Unit filename="assets/playerB_right.png" />
+		<Unit filename="assets/playerC_back.png" />
+		<Unit filename="assets/playerC_front.png" />
+		<Unit filename="assets/playerC_left.png" />
+		<Unit filename="assets/playerC_right.png" />
+		<Unit filename="assets/playerD_back.png" />
+		<Unit filename="assets/playerD_front.png" />
+		<Unit filename="assets/playerD_left.png" />
+		<Unit filename="assets/playerD_right.png" />
+		<Unit filename="assets/wall1.png" />
+		<Unit filename="assets/wall2.png" />
+		<Unit filename="src/Player.cpp" />
+		<Unit filename="src/Player.h" />
+		<Unit filename="src/main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

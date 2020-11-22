@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1574068827 source:p:\bomberman_multiplayer\main.cpp
+	<iostream>
+	<SFML/Graphics.hpp>
+
+1574347245 source:p:\bomberman_multiplayer\src\main.cpp
+	<iostream>
+	<time.h>
+	<SFML/Graphics.hpp>
+	"Player.h"
+
+1574257889 p:\bomberman_multiplayer\src\player.h
+	<string>
+	<SFML/Graphics.hpp>
+
+1574095284 source:p:\bomberman_multiplayer\src\bomb.cpp
+	"Bomb.h"
+	"Player.h"
+
+1574086274 p:\bomberman_multiplayer\src\bomb.h
+	<string>
+
+1574347507 source:p:\bomberman_multiplayer\src\player.cpp
+	<iostream>
+	"Player.h"
+
